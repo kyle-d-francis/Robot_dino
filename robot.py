@@ -1,9 +1,10 @@
-import weapon
-class robot:
+from weapon import Weapon 
+
+class Robot:
     def __init__(self) :
         self.name = 'Gypsy Danger'
         self.health = 100
-        self.active_weapon = weapon
+        self.active_weapon = Weapon
 
     def attack(self, dinosaur):
         pass
