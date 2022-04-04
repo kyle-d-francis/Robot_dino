@@ -16,7 +16,6 @@ class battlefield:
             return welcome_message
 
     def battle_phase(self):
-        while 
 
         pass
 

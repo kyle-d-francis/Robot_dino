@@ -9,6 +9,7 @@ class Robot:
     def attack(self, dinosaur):
         #dinosaurs health subtracted by attack power of robots weapon
         dinosaur.health -= self.active_weapon.attack_power 
-        print(f'')
-        pass
+        print(f'{ dinosaur.name} has been struck by a battle axe, he has {dinosaur.health} remaining.')
+    
+    
 
