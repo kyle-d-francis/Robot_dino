@@ -1,23 +1,33 @@
 from robot import Robot
 from dinosaur import Dinosaur
-class battlefield:
+class Battlefield:
     def __init__(self):
         self.robot = Robot('Gyspy Danger')
         self.dinosaur = Dinosaur('Dan',15)
 
     def run_game(self):
-        pass
+        #welcome message
+        self.display_welcome()
+        #robot attacks
+        #dino attacks
+        self.battle_phase()
+        #display winner
+        self.display_winner()
+         
 
     def display_welcome(self):
-        welcome_message = input('welcome to the rice fields, would you like to start the battle?')
-        while welcome_message != "yes":
-            next_message = input( 'are you sure you dont want to start the mayhem?')
-        if welcome_message == 'yes':
-            return welcome_message
+        self.welcome= welcome_message
+        welcome_message = print( 'welcome to the rice fields, lets start the battle.')
+        
 
     def battle_phase(self):
+        self.attack_dinosaur(Robot)
+        self.attack_robot(Dinosaur)
+
+
 
         pass
 
     def display_winner(self):
+
         pass
