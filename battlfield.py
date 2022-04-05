@@ -13,21 +13,23 @@ class Battlefield:
         self.battle_phase()
         #display winner
         self.display_winner()
+    
          
 
     def display_welcome(self):
-        self.welcome= welcome_message
-        welcome_message = print( 'welcome to the rice fields, lets start the battle.')
+        self.welcome = print( 'welcome to the rice fields, lets start the battle.')
+    
         
 
     def battle_phase(self):
-        self.attack_dinosaur(Robot)
-        self.attack_robot(Dinosaur)
+        
+    
 
 
 
-        pass
+    
 
     def display_winner(self):
-
         pass
+
+    
