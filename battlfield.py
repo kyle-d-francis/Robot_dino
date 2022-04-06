@@ -22,7 +22,8 @@ class Battlefield:
         
 
     def battle_phase(self):
-        
+        Dinosaur.attack_robot(self, Robot)
+        Robot.attack_dinosaur(self, Dinosaur)
     
 
 
